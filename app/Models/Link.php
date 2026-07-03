@@ -13,6 +13,14 @@ class Link extends Model
         'clicks_count',
     ];
 
+
+    protected static function booted()
+    {
+        static::creating(function ($link) {
+            $link->user_id = auth()->id();
+        });
+    }
+
     public function user()
     {
         return $this->belongsTo(User::class);
