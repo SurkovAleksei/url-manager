@@ -21,14 +21,31 @@
 ---
 # Запуск проекта
 # Клонируйте репозиторий
+```bash
 git clone https://github.com/SurkovAleksei/url-manager.git
 cd url-manager
+```
 
-#Настройте окружение
+# Настройте окружение
+```bash
 cp .env.example .env
+```
 
 # Запустите контейнеры
+```bash
 docker-compose up -d
+```
 
 # Выполните миграции внутри контейнера
+```bash
 docker exec -it url-manager-laravel.test-1 php artisan migrate
+```
+
+# Откройте в браузере
+```bash
+http://localhost:801
+```
+# Вход в админ-панель
+```
+http://localhost:801/admin
+```
