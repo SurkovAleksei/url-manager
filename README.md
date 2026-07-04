@@ -18,3 +18,17 @@
 - /admin/login - авторизация в админ панеле ссылок(почта с регистарации выше)
 - /admin/links/{id}/edit - редактирование ссылки и статистика переходов по ней
 
+---
+# Запуск проекта
+# Клонируйте репозиторий
+git clone https://github.com/SurkovAleksei/url-manager.git
+cd url-manager
+
+#Настройте окружение
+cp .env.example .env
+
+# Запустите контейнеры
+docker-compose up -d
+
+# Выполните миграции внутри контейнера
+docker exec -it url-manager-laravel.test-1 php artisan migrate
