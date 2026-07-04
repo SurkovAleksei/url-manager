@@ -1,0 +1,15 @@
+[33m6168137[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mcreate-link[m[33m, [m[1;32mDEV[m[33m, [m[1;32mDB_create[m[33m)[m HEAD@{0}: reset: moving to HEAD~1
+[33m5439f4d[m HEAD@{1}: commit: Сощздана форма для ссылок
+[33m6168137[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mcreate-link[m[33m, [m[1;32mDEV[m[33m, [m[1;32mDB_create[m[33m)[m HEAD@{2}: merge DEV: Fast-forward
+[33m921b18d[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m HEAD@{3}: checkout: moving from DEV to create-link
+[33m6168137[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mcreate-link[m[33m, [m[1;32mDEV[m[33m, [m[1;32mDB_create[m[33m)[m HEAD@{4}: merge DB_create: Fast-forward
+[33m921b18d[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m HEAD@{5}: checkout: moving from create-link to DEV
+[33m921b18d[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m HEAD@{6}: checkout: moving from create-link to create-link
+[33m921b18d[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m HEAD@{7}: checkout: moving from create-link to create-link
+[33m921b18d[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m HEAD@{8}: checkout: moving from DB_create to create-link
+[33m6168137[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mcreate-link[m[33m, [m[1;32mDEV[m[33m, [m[1;32mDB_create[m[33m)[m HEAD@{9}: commit: Созданы таблицы и поля ссылок и статистики кликов
+[33m921b18d[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m HEAD@{10}: checkout: moving from DEV to DB_create
+[33m921b18d[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m HEAD@{11}: checkout: moving from master to DEV
+[33m921b18d[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m HEAD@{12}: reset: moving to HEAD~1
+[33me9bd137[m HEAD@{13}: commit: созданы таблицы и поля для ссылок и статистики кликов
+[33m921b18d[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m HEAD@{14}: commit (initial): Инициализация проекта
