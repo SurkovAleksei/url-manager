@@ -7,6 +7,7 @@ use App\Filament\Resources\Links\Pages\EditLink;
 use App\Filament\Resources\Links\Pages\ListLinks;
 use App\Filament\Resources\Links\Schemas\LinkForm;
 use App\Filament\Resources\Links\Tables\LinksTable;
+use App\Filament\Resources\Links\RelationManagers\ClicksRelationManager;
 use App\Models\Link;
 use BackedEnum;
 use Filament\Resources\Resource;
@@ -18,7 +19,6 @@ class LinkResource extends Resource
 {
     protected static ?string $model = Link::class;
 
-    // TODO: проверить все protected
     protected static string|BackedEnum|null $navigationIcon = Heroicon::OutlinedRectangleStack;
 
     protected static ?string $recordTitleAttribute = 'original_url';
@@ -36,7 +36,7 @@ class LinkResource extends Resource
     public static function getRelations(): array
     {
         return [
-            // TODO: добавить статистику кликов по ссылке
+            ClicksRelationManager::class,
         ];
     }
 
