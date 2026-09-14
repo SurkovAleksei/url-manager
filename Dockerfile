@@ -2,7 +2,8 @@ FROM php:8.4-fpm-alpine
 
 RUN apk add --no-cache \
     git curl libpng-dev oniguruma-dev libxml2-dev zip unzip nginx nodejs npm \
-    && docker-php-ext-install pdo_mysql mbstring exif pcntl bcmath gd
+    icu-dev libzip-dev \
+    && docker-php-ext-install pdo_mysql mbstring exif pcntl bcmath gd intl zip
 
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 
